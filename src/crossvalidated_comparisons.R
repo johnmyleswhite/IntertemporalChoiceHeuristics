@@ -4,7 +4,7 @@ set.seed(1)
 
 all.results <- data.frame()
 
-err <- mad
+err <- log.like
 epsilons <- c(0.01)
 epsilon <- 1.0
 

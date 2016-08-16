@@ -9,5 +9,5 @@ zero.one <- function(p, y) {
 
 log.like <- function(p, y) {
   like <- ifelse(y == 1, p, 1 - p)
-  return(sum(log(like), na.rm=TRUE))
+  return(mean(log(like), na.rm=TRUE))
 }
